@@ -93,10 +93,10 @@ Based in **Brasília, Brazil** · co-founder of [**RQH Soluções**](mailto:come
 <table align="center" border="0">
   <tr>
     <td align="center" valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=alexcafe&show_icons=true&hide_border=false&bg_color=0D0D28&title_color=A78BFA&icon_color=2ABFBF&text_color=9898BB&border_color=222248&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=alexcafe&show_icons=true&hide_border=false&bg_color=0D0D28&title_color=A78BFA&icon_color=2ABFBF&text_color=9898BB&border_color=222248&include_all_commits=true&count_private=false&cache_seconds=3600" alt="GitHub Stats" width="100%"/>
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexcafe&layout=compact&hide_border=false&bg_color=0D0D28&title_color=A78BFA&text_color=9898BB&border_color=222248&langs_count=8" alt="Top Languages" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alexcafe&layout=compact&hide_border=false&bg_color=0D0D28&title_color=A78BFA&text_color=9898BB&border_color=222248&langs_count=8&cache_seconds=3600" alt="Top Languages" width="100%"/>
     </td>
   </tr>
   <tr>
@@ -126,22 +126,16 @@ Based in **Brasília, Brazil** · co-founder of [**RQH Soluções**](mailto:come
 
 ### 🚀 Projetos em destaque
 
-<table align="center" border="0">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/alexcafe">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=alexcafe&repo=alexcafe&bg_color=0D0D28&title_color=A78BFA&icon_color=2ABFBF&text_color=9898BB&border_color=222248" alt="featured repo" width="100%"/>
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://rqhsolucoes.com">
-        <img src="https://img.shields.io/badge/RQH_Solu%C3%A7%C3%B5es-Site_Institucional-7c3aed?style=for-the-badge&labelColor=0d0d28" alt="RQH" width="100%"/>
-        <br/><br/>
-        <sub><i>Mais projetos via os pins do perfil ↑</i></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <sub><i>Pin seus repositórios públicos no perfil GitHub para aparecerem aqui automaticamente.</i></sub><br/>
+  <a href="https://github.com/alexcafe?tab=repositories">
+    <img src="https://img.shields.io/badge/Ver_todos_os_repositórios-2d2480?style=for-the-badge&logo=github&logoColor=ffffff" alt="repos"/>
+  </a>
+  &nbsp;
+  <a href="https://rqhsolucoes.com">
+    <img src="https://img.shields.io/badge/RQH_Soluções-Site_Institucional-7c3aed?style=for-the-badge&labelColor=0d0d28" alt="RQH"/>
+  </a>
+</p>
 
 <div align="center">
   <img src="./assets/divider-cyan.svg" alt="" width="100%"/>
