@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" role="img" aria-label="Alexandre — Soluções de TI com Inteligência Artificial e Consultoria">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06061a"/>
+      <stop offset="55%" stop-color="#160b3a"/>
+      <stop offset="100%" stop-color="#0d0620"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f0f0fc"/>
+      <stop offset="45%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38d9d9"/>
+    </linearGradient>
+    <radialGradient id="meshA" cx="10%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#2d2480" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2d2480" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshB" cx="88%" cy="12%" r="50%">
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="meshC" cx="55%" cy="92%" r="55%">
+      <stop offset="0%" stop-color="#2abfbf" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2abfbf" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0L0 0 0 40" fill="none" stroke="#222248" stroke-opacity="0.35" stroke-width="1"/>
+    </pattern>
+    <symbol id="hex" viewBox="-50 -50 100 100">
+      <polygon points="0,-46 40,-23 40,23 0,46 -40,23 -40,-23"
+               fill="none" stroke="#2abfbf" stroke-width="1.4" stroke-opacity="0.55"/>
+    </symbol>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1280" height="360" fill="url(#meshA)"/>
+  <rect width="1280" height="360" fill="url(#meshB)"/>
+  <rect width="1280" height="360" fill="url(#meshC)"/>
+
+  <g opacity="0.5">
+    <circle cx="1090" cy="86" r="120" fill="#7c3aed" opacity="0.18" filter="url(#softGlow)"/>
+    <circle cx="170" cy="280" r="150" fill="#2d2480" opacity="0.28" filter="url(#softGlow)"/>
+  </g>
+
+  <g opacity="0.7">
+    <use href="#hex" x="1145" y="245" width="70" height="70"/>
+    <use href="#hex" x="1195" y="290" width="40" height="40"/>
+    <use href="#hex" x="95" y="80" width="55" height="55"/>
+  </g>
+
+  <g font-family="'Trebuchet MS', 'Segoe UI', system-ui, sans-serif">
+    <text x="80" y="125"
+          font-size="13" font-weight="700" letter-spacing="6"
+          fill="#2abfbf">
+      ALEXANDRE  ·  @alexcafe
+    </text>
+
+    <line x1="80" y1="142" x2="160" y2="142" stroke="#2abfbf" stroke-width="2" stroke-linecap="round"/>
+
+    <text x="80" y="220"
+          font-size="78" font-weight="800" letter-spacing="-2"
+          fill="url(#title)" filter="url(#glow)">
+      Soluções de TI com IA
+    </text>
+
+    <text x="80" y="270"
+          font-size="22" font-weight="500" letter-spacing="0.5"
+          fill="#9898bb">
+      Engenharia de agentes · arquitetura · consultoria estratégica
+    </text>
+
+    <g transform="translate(80,310)">
+      <rect width="160" height="32" rx="16" fill="#2d2480" opacity="0.35" stroke="#7c3aed" stroke-opacity="0.45"/>
+      <text x="80" y="21" font-size="12" font-weight="700" fill="#a78bfa" text-anchor="middle" letter-spacing="2">AGENTIC · AI</text>
+
+      <rect x="172" width="180" height="32" rx="16" fill="#181838" opacity="0.85" stroke="#2abfbf" stroke-opacity="0.45"/>
+      <text x="262" y="21" font-size="12" font-weight="700" fill="#38d9d9" text-anchor="middle" letter-spacing="2">CLOUD · INFRA</text>
+
+      <rect x="364" width="200" height="32" rx="16" fill="#181838" opacity="0.85" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <text x="464" y="21" font-size="12" font-weight="700" fill="#ddd6fe" text-anchor="middle" letter-spacing="2">IT  CONSULTING</text>
+    </g>
+  </g>
+
+  <g transform="translate(1100,160)" opacity="0.85">
+    <circle r="60" fill="none" stroke="#7c3aed" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle r="42" fill="none" stroke="#38d9d9" stroke-width="1" stroke-opacity="0.5"/>
+    <circle r="22" fill="#7c3aed" opacity="0.85" filter="url(#glow)"/>
+    <circle r="8"  fill="#f0f0fc"/>
+  </g>
+</svg>
